@@ -111,6 +111,38 @@ const app = {
 	},
 
 	/**
+	 * Set value by key
+	 * 
+	 * @param	{string}					key
+	 * @param	{any}						value
+	 * @param	{"common" | "precise"}		[channel]
+	 * @param	{"current" | "previous"}	[store]
+	 * @param	{boolean}					[dispatch]
+	 */
+	set(key, value, channel = "common", store = "current", dispatch = true) {
+		const path = key.split(".");
+		let data = this.data[channel][store];
+
+		for (let i = 0; i < path.length; i++) {
+			const token = path[i];
+
+			if (i == path.length - 1) {
+				data[token] = value;
+			} else {
+				if (typeof data[token] == "undefined" || typeof data[token] != "object")
+					data[token] = {};
+
+				data = data[token];
+			}
+		}
+
+		if (dispatch)
+			this.dispatch(this.data[channel][store], channel);
+
+		return this;
+	},
+
+	/**
 	 * Subscribe for value change of the specified value key
 	 * 
 	 * @param	{string}				key
@@ -194,15 +226,23 @@ const app = {
 
 	doUpdateFilters() {
 		if (this.filtersChanged.common) {
-			this.client.sockets["/websocket/v2"].send(`applyFilters:${JSON.stringify(this.filters.common)}`);
-			this.filtersChanged.common = false;
-			console.debug("pushed new common filters to server");
+			if (this.client.sockets["/websocket/v2"].readyState === WebSocket.OPEN) {
+				this.client.sockets["/websocket/v2"].send(`applyFilters:${JSON.stringify(this.filters.common)}`);
+				this.filtersChanged.common = false;
+				console.debug("pushed new common filters to server");
+			} else {
+				console.debug("common socket not ready");
+			}
 		}
 
 		if (this.filtersChanged.precise) {
-			this.client.sockets["/websocket/v2/precise"].send(`applyFilters:${JSON.stringify(this.filters.precise)}`);
-			this.filtersChanged.precise = false;
-			console.debug("pushed new precise filters to server");
+			if (this.client.sockets["/websocket/v2/precise"].readyState === WebSocket.OPEN) {
+				this.client.sockets["/websocket/v2/precise"].send(`applyFilters:${JSON.stringify(this.filters.precise)}`);
+				this.filtersChanged.precise = false;
+				console.debug("pushed new precise filters to server");
+			} else {
+				console.debug("precise socket not ready");
+			}
 		}
 
 		return this;

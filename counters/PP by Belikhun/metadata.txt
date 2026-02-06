@@ -1,7 +1,7 @@
 Usecase: ingame,obs-overlay
 Name: PP
-Version: 1.0
+Version: 1.1.2
 Author: Belikhun
 CompatibleWith: tosu
 Resolution: 380x270
-authorLinks: https://github.com/Belikhun/osu-counters
+authorLinks: https://github.com/Belikhun
