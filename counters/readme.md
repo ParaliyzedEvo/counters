@@ -514,7 +514,7 @@
 
 ## PP by Belikhun
 
-<a href="https://osuck.link/redirect/https://files.osuck.link/tosu/pp by belikhun v1.0.zip" target="_blank"><img height="35" src="https://img.shields.io/badge/Download_PP_Counter-67A564?style=for-the-badge&logo=cloud&logoColor=white" /></a>  
+<a href="https://osuck.link/redirect/https://files.osuck.link/tosu/pp by belikhun v1.1.2.zip" target="_blank"><img height="35" src="https://img.shields.io/badge/Download_PP_Counter-67A564?style=for-the-badge&logo=cloud&logoColor=white" /></a>  <a href="https://github.com/Belikhun" target="_blank"><img height="35" src="https://img.shields.io/badge/github-000000?style=for-the-badge&logo=github&logoColor=white" /></a>  
 
 |||
 | ------------- | ------------- |
@@ -542,7 +542,7 @@
 
 ## Rank and Accuracy by Belikhun
 
-<a href="https://osuck.link/redirect/https://files.osuck.link/tosu/rank and accuracy by belikhun v1.1.1.zip" target="_blank"><img height="35" src="https://img.shields.io/badge/Download_PP_Counter-67A564?style=for-the-badge&logo=cloud&logoColor=white" /></a>  
+<a href="https://osuck.link/redirect/https://files.osuck.link/tosu/rank and accuracy by belikhun v1.1.2.zip" target="_blank"><img height="35" src="https://img.shields.io/badge/Download_PP_Counter-67A564?style=for-the-badge&logo=cloud&logoColor=white" /></a>  <a href="https://github.com/Belikhun" target="_blank"><img height="35" src="https://img.shields.io/badge/github-000000?style=for-the-badge&logo=github&logoColor=white" /></a>  
 
 |||
 | ------------- | ------------- |
@@ -610,6 +610,36 @@
 <img src="/.github/images/simplistic by jassper0.jpg" /> <img src="/.github/gifs/simplistic by jassper0.gif" /> 
 
 
+## SonataOverlay by Paraliyzed_evo
+
+<a href="https://osuck.link/redirect/https://files.osuck.link/tosu/sonataoverlay by paraliyzed_evo v1.22.zip" target="_blank"><img height="35" src="https://img.shields.io/badge/Download_PP_Counter-67A564?style=for-the-badge&logo=cloud&logoColor=white" /></a>  <a href="https://github.com/Paraliyzedevo" target="_blank"><img height="35" src="https://img.shields.io/badge/github-000000?style=for-the-badge&logo=github&logoColor=white" /></a>  
+
+|||
+| ------------- | ------------- |
+| For | ingame, obs-overlay |
+| Compatible with | tosu |
+| Size |  2560x1440 |
+
+
+<img src="/.github/images/sonataoverlay by paraliyzed_evo.png" /> 
+
+
+## Souei-Overlay by -Souei
+
+<a href="https://osuck.link/redirect/https://files.osuck.link/tosu/souei-overlay by -souei v2.1.zip" target="_blank"><img height="35" src="https://img.shields.io/badge/Download_PP_Counter-67A564?style=for-the-badge&logo=cloud&logoColor=white" /></a>  
+
+|||
+| ------------- | ------------- |
+| For | ingame, obs-overlay |
+| Compatible with | tosu |
+| Size |  1920x1080 |
+
+
+> Souei's osu! overlay with customizable colors and fonts
+
+<img src="/.github/images/souei-overlay by -souei.png" /> 
+
+
 ## tosu-debug by cyperdark
 
 <a href="https://osuck.link/redirect/https://files.osuck.link/tosu/tosu-debug by cyperdark v1.2.1.zip" target="_blank"><img height="35" src="https://img.shields.io/badge/Download_PP_Counter-67A564?style=for-the-badge&logo=cloud&logoColor=white" /></a>  <a href="https://github.com/cyperdark" target="_blank"><img height="35" src="https://img.shields.io/badge/github-000000?style=for-the-badge&logo=github&logoColor=white" /></a>  <a href="https://twitter.com/cpol_owo" target="_blank"><img height="35" src="https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" /></a>  <a href="https://discord.gg/rYHNggbhyY" target="_blank"><img height="35" src="https://img.shields.io/badge/discord-5865f2?style=for-the-badge&logo=discord&logoColor=white" /></a>  
@@ -672,7 +702,7 @@
 
 ## Unstable Rate with Hit Errors by Belikhun
 
-<a href="https://osuck.link/redirect/https://files.osuck.link/tosu/unstable rate with hit errors by belikhun v1.1.zip" target="_blank"><img height="35" src="https://img.shields.io/badge/Download_PP_Counter-67A564?style=for-the-badge&logo=cloud&logoColor=white" /></a>  
+<a href="https://osuck.link/redirect/https://files.osuck.link/tosu/unstable rate with hit errors by belikhun v1.1.2.zip" target="_blank"><img height="35" src="https://img.shields.io/badge/Download_PP_Counter-67A564?style=for-the-badge&logo=cloud&logoColor=white" /></a>  <a href="https://github.com/Belikhun" target="_blank"><img height="35" src="https://img.shields.io/badge/github-000000?style=for-the-badge&logo=github&logoColor=white" /></a>  
 
 |||
 | ------------- | ------------- |
@@ -682,6 +712,20 @@
 
 
 <img src="/.github/images/unstable rate with hit errors by belikhun.png" /> <img src="/.github/gifs/unstable rate with hit errors by belikhun.gif" /> 
+
+
+## User Card by Belikhun
+
+<a href="https://osuck.link/redirect/https://files.osuck.link/tosu/user card by belikhun v1.0.0.zip" target="_blank"><img height="35" src="https://img.shields.io/badge/Download_PP_Counter-67A564?style=for-the-badge&logo=cloud&logoColor=white" /></a>  <a href="https://github.com/Belikhun" target="_blank"><img height="35" src="https://img.shields.io/badge/github-000000?style=for-the-badge&logo=github&logoColor=white" /></a>  
+
+|||
+| ------------- | ------------- |
+| For | ingame, obs-overlay |
+| Compatible with | tosu |
+| Size |  420x108 |
+
+
+<img src="/.github/images/user card by belikhun 1.png" /> <img src="/.github/images/user card by belikhun 2.png" /> <img src="/.github/images/user card by belikhun 3.png" /> 
 
 
 ## veadotube-integration by Malteser, WhatTheHai, Bubbleman
